@@ -7,4 +7,5 @@
 ## Description
 
 First work with API - [Weather API](https://www.weatherapi.com/)
+
 In real time, you can view the weather of your city in degrees Celsius or Fahrenheit (click on degrees)
