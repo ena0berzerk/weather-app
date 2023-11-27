@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "scripts": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "Nikita Enduraev",
   "license": "ISC",

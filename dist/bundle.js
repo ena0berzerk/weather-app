@@ -517,7 +517,7 @@ function getDatas(response) {
 async function fetchAPI(location) {
   try {
     const API_KEY = 'e30f31669c774a29bd871601232411';
-    const getPromise = await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`, {
+    const getPromise = await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}`, {
       mode: 'cors'
     });
     const response = await getPromise.json();
